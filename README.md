@@ -1,6 +1,9 @@
-# Team Gateway Hackday Project
+# Flight to Financial Freedom
 
-This project is for Team Gateway and is being created for the Hackday on May 23 - 24 / 2019.
+An experimental visual storybook for financial literacy
+
+![Example 1](game-1.png?raw=true "Example 1")
+![Example 2](game-2.png?raw=true "Example 2")
 
 ## Getting Started
 
