@@ -25,9 +25,9 @@ This was made as part of ATB's Hackday 2019 Marathon.
 
 ### Technologies Used
 
-PHP
-three.js
-MariaDB
+- PHP
+- three.js
+- MariaDB
 
 ### Getting Started
 
