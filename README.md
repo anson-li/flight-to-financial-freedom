@@ -21,15 +21,19 @@ We decided to make a gamified visual storybook in order to solve the following p
 
 This was made as part of ATB's Hackday 2019 Marathon.
 
----
-
 ### Technologies Used
 
 - PHP
 - three.js
 - MariaDB
 
-### Getting Started
+
+
+---
+
+
+
+## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
