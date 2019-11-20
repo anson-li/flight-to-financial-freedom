@@ -68,9 +68,3 @@ A few commands you might want to make note of to enhance your Docker experience.
 * `docker system prune` (If you've been messing with the docker stuff and need to clean your system of failed builds, use this, be very careful with this one)
 * `docker ps` (This lists all containers currently running in Docker in your system, also includes the container names, important for below)
 * `docker exec -it gateway_project /bin/sh` (Use the container name found with the above command and this plops you into a terminal running inside that container, it's linux, have fun)
-
-### Relevant Links
-
-* [Project Document](https://docs.google.com/document/d/14KjvRyEKuJkHKR1nenBJ1VThOntbTrW4D8u6b6f_Dls/edit?ts=5cd4797a)
-* [Project Presentation](https://docs.google.com/presentation/d/1vYeg4IAHFxbRN28_JB5d2a2k1tGAqhqe1DZlP-XGhmE/edit#slide=id.g5a6cc37c17_0_0)
-* [GCP Project URL](https://console.cloud.google.com/home/dashboard?project=gateway-hackday)
