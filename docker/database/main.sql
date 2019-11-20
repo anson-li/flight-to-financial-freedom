@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS decisions (
+	id INT NOT NULL AUTO_INCREMENT,
+	section VARCHAR(10),
+	question VARCHAR(10),
+	answer VARCHAR(10),
+	date DATETIME,
+	PRIMARY KEY (id)
+);

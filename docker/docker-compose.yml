@@ -1,0 +1,38 @@
+version: '3'
+services:
+  gateway_db:
+    container_name: gateway_db
+    build: ./database
+    environment:
+      MYSQL_ROOT_PASSWORD: gatewayisawesome
+      MYSQL_DATABASE: gateway_main
+      MYSQL_USER: gateway_main
+      MYSQL_PASSWORD: gatewayisawesome
+    restart: always
+    ports:
+      - '3306:3306'
+    volumes:
+      - gateway-datavolume:/var/lib/mysql
+    logging:
+      driver: 'none'
+  gateway_cache:
+    container_name: gateway_cache
+    build: ./cache
+    restart: always
+    command: bash -c "redis-server /etc/redis/redis.conf"
+  gateway_project:
+    container_name: gateway_project
+    build: ./server
+    ports:
+      - '80:80'
+      - '443:443'
+    volumes:
+      - ../project:/project
+    command: bash -c "httpd -D FOREGROUND"
+    links:
+      - "gateway_db:RDS_HOSTNAME"
+      - "gateway_cache:CACHE_HOSTNAME"
+volumes:
+  gateway-datavolume:
+
+

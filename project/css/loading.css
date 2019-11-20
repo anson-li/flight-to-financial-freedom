@@ -1,0 +1,41 @@
+#loading-menu {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    z-index: 500;
+    background-color: white;
+    position: absolute;
+    text-align: center;
+    content-align: center;
+}
+
+.centered-text {
+    margin-top: 50vh;
+    font-family: 'Karla', serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.spinner {
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 2.5em;
+    height: 3em;
+    border: 3px solid transparent;
+    border-top-color: #fc2f70;
+    border-bottom-color: #fc2f70;
+    border-radius: 50%;
+    animation: spin-stretch 2s ease infinite;
+  }
+
+@keyframes spin-stretch {
+    50% {
+      transform: rotate(360deg) scale(0.4, 0.33);
+      border-width: 8px;
+    }
+    100% {
+      transform: rotate(720deg) scale(1, 1);
+      border-width: 3px;
+    }
+  }
