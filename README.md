@@ -60,7 +60,3 @@ Unknown at this time
 * **Dustin Nielsen**
 * **Peter Sterling**
 * **Zheng Yang**
-
-## License
-
-This project is only authorized for use within [ATB Financial](https://www.atb.com/Pages/default.aspx)
